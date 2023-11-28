@@ -55,6 +55,26 @@ if page == "Home":
         "Click on the 'Visualization Page' and 'Predictions Page' in the sidebar to start exploring fuel prices in Zambia. "
         "Feel free to analyze the visualizations and evaluate the performance of different machine learning models."
     )
+    # About the Creator
+    st.header("About the Creator:")
+    st.markdown("""
+        This app was created by Kampamba Shula.
+
+        **Contact Information:**
+        - Email: kampambashula@gmail.com
+        - LinkedIn: https://www.linkedin.com/in/kampamba-shula-03946633/
+        - GitHub: https://github.com/kshula
+        """)
+
+        # Disclaimer
+    st.header("Disclaimer:")
+    st.markdown("""
+        This app is for educational and informational purposes only. The predictions made by the app are based on historical data and should not be considered as financial advice.
+        """)
+
+        # Footer
+    st.markdown("---")
+    st.markdown("© 2023 Fuel Price predictor App. All rights reserved.")
 
 elif page == "Visualization":
     st.title("Visualization Page")
