@@ -5,7 +5,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.neural_network import MLPRegressor
-from xgboost import XGBRegressor
 from sklearn import metrics
 import plotly.express as px
 
